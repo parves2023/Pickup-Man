@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:wght@100, 200, 300, 400, 500, 600, 700, 800&display swap');
+body{
+  font-family: 'Inter', sans-serif;
+}
+.togglemenu{
+
+  width: 100% !important;
+  height: 110% !important;
+  padding-top: 60px !important;
+  transform: translate(-2%, -12%) !important;
+  background-color: rgb(19, 19, 32) !important;
+  display: flex !important;
+  visibility: hidden;
+  pointer-events: none;
+  position: fixed !important;
+  margin: auto !important;
+  color: white !important;
+  flex-direction: column !important;
+  text-align: center !important;
+}
+.thebutton{
+  display: block;
+  margin-left: 115px;
+  width: 120px;
+}
+.addclass{
+  visibility: visible;
+  pointer-events: all;
+}
+
+
+.herosec{
+padding-top: 20px;
+}
+
+.navbutton{
+
+text-align: center;
+background-color: #000000;
+padding: 7px;
+border: 2px solid darkgreen;
+border-radius: 16px;
+margin-left: 3px;
+
+}
+.navbutton:hover{
+
+text-align: center;
+background-color: #069b35;
+padding: 7px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 16px;
+color: rgb(255, 255, 255);
+
+}
+
+
+.whatsapplogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: rgb(37,211,102);
+  font-size: 50px; /* Increased font size */
+  border: 8px solid  rgb(37,211,102) !important;
+  border-radius: 50%;
+
+  
+}
+
+/* fix iframe mobile */
+@media (min-width: 768px) {
+  #formIframe {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #formIframe {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #formIframe {
+    width: 650px;
+  }
+  .togglemenu{
+    visibility: hidden !important;
+    pointer-events: none !important;
+
+  }
+} 
+
+
